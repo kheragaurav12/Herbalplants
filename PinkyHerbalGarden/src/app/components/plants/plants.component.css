@@ -1,0 +1,5 @@
+.btn:focus, input:focus {
+  box-shadow: none !important;
+  outline: none;
+
+}

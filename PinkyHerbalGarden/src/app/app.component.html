@@ -1,0 +1,24 @@
+<header id="header">
+
+  <div class="container-fluid p-2 d-flex align-items-center sticky">
+
+    <h1 class="me-auto" style="color: aliceblue; cursor: pointer;" [routerLink]="['/']">Herbal Garden</h1>
+    <!-- Uncomment below if you prefer to use an image logo -->
+    <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+    <nav id="navbar" class="navbar order-last order-lg-0 ">
+      <ul>
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#Li">Live Feed</a></li>
+        <li><a href="#trainers">Events</a></li>
+        <li><a href="#events">Venue Booking</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+  </div>
+</header>
+
+<router-outlet></router-outlet>
+<app-footer></app-footer>
